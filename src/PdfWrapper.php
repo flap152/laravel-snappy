@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
  * @package laravel-snappy
  * @author Barry vd. Heuvel
  */
-class PdfWrapper{
+class PdfWrapper  extends \Barryvdh\Snappy\Facades\SnappyPdf {
 
     /**
      * @var \Knp\Snappy\Pdf
